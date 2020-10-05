@@ -10,11 +10,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85f95812-20b2-4ea3-b71a-8b537b6d377d" name="Default Changelist" comment="" />
+    <list default="true" id="85f95812-20b2-4ea3-b71a-8b537b6d377d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/controller/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/HDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Optical_Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/RAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -25,9 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.view.Main" />
       <module name="1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -36,6 +56,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,5 +83,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601863516478">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.949@0.23.1680.949" timestamp="1601863516478" />
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom" timestamp="1601863979822">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1601863979822" />
+    <state width="1358" height="240" key="GridCell.Tab.0.center" timestamp="1601863979821">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1601863979821" />
+    <state width="1358" height="240" key="GridCell.Tab.0.left" timestamp="1601863979821">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1601863979821" />
+    <state width="1358" height="240" key="GridCell.Tab.0.right" timestamp="1601863979822">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1358" height="240" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1601863979822" />
   </component>
 </project>
