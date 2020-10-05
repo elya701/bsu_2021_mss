@@ -83,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601864310882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add completed RIPS_LAB_1">
+      <created>1601864379925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601864379925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add completed RIPS_LAB_1">
+      <created>1601864386643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601864386643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,34 +113,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add completed RIPS_LAB_1" />
     <MESSAGE value="init: add RIPS_LAB_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="init: add RIPS_LAB_1" />
+    <MESSAGE value="feat: add completed RIPS_LAB_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add completed RIPS_LAB_1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601863516478">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.949@0.23.1680.949" timestamp="1601863516478" />
-    <state width="1358" height="240" key="GridCell.Tab.0.bottom" timestamp="1601864226502">
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom" timestamp="1601864436223">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1601864226502" />
-    <state width="1358" height="240" key="GridCell.Tab.0.center" timestamp="1601864226501">
+    <state width="1358" height="240" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1601864436223" />
+    <state width="1358" height="240" key="GridCell.Tab.0.center" timestamp="1601864436222">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1601864226501" />
-    <state width="1358" height="240" key="GridCell.Tab.0.left" timestamp="1601864226500">
+    <state width="1358" height="240" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1601864436222" />
+    <state width="1358" height="240" key="GridCell.Tab.0.left" timestamp="1601864436222">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1601864226500" />
-    <state width="1358" height="240" key="GridCell.Tab.0.right" timestamp="1601864226501">
+    <state width="1358" height="240" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1601864436222" />
+    <state width="1358" height="240" key="GridCell.Tab.0.right" timestamp="1601864436223">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1601864226501" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1601864319869">
+    <state width="1358" height="240" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1601864436223" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1601864390369">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1601864319869" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.23.1680.949@0.23.1680.949" timestamp="1601864390369" />
   </component>
 </project>
