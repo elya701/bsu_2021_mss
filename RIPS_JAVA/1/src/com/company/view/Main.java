@@ -13,7 +13,7 @@ public class Main {
         RAM ram = new RAM("16 GB", 1866);
         Optical_Driver cd_rom = new Optical_Driver("DVD-ROM", 8200);
         HDD hdd = new HDD("SSD", "Kingston", "256 GB");
-        PC myPC = new PC("RomanPC", "Macbook Pro", "Mac OS", true);
+        PC myPC = new PC("RomanPC", "Macbook Pro", "Mac OS", false);
 
         myPC.setHardDisk(hdd);
 

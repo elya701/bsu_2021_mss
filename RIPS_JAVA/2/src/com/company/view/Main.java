@@ -1,40 +1,49 @@
 package com.company.view;
 
-import com.company.model.Individual;
+import com.company.controller.Person;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class Main {
 
 
 
     public static void main(String[] args) {
-        ArrayList<Individual> totalIndividuals = new ArrayList<Individual>();
+        ArrayList<Person> totalPersons = new ArrayList<Person>();
 
-        Individual individual = new Individual("Roman", 800, 0,
-                0, 0, 200);
+        Person firstPerson = new Person(false, "Roman",800,200,300,500,400);
+        Person secondPerson = new Person(true, "Maksim",1000,300,505,203,1230);
+        Person thirdPerson = new Person(false, "Samir",3127,312,431,312,312);
 
+        totalPersons.add(firstPerson);
+        totalPersons.add(secondPerson);
+        totalPersons.add(thirdPerson);
 
-        Individual individual3 = new Individual("Petr", 1000, 40,
-                50, 20, 100);
-
-        Individual individual4 = new Individual("Kirill", 10000, 40,
-                50, 20, 100);
-
-        totalIndividuals.add(individual);
-        totalIndividuals.add(individual4);
-        totalIndividuals.add(individual3);
-
+        System.out.println("Calculate total tax for current period");
         System.out.println("--------------------------------------");
-        totalIndividuals.forEach(individual2 -> individual2.printTotalTax());
+        totalPersons.forEach(person -> System.out.println(person.name + " " + person.tax.calculateOverAllTax() + " USD"));
         System.out.println("--------------------------------------");
 
-        Collections.sort(totalIndividuals,
-                Comparator.comparingDouble(Individual::getTotalTax).reversed());
-        totalIndividuals.forEach(individual2 -> individual2.printSortedTax());
+        System.out.println("Calculate overall tax");
         System.out.println("--------------------------------------");
+        totalPersons.forEach(person -> System.out.println(person.name + " " + person.tax.calculateTotalTax() + " USD"));
+        System.out.println("--------------------------------------");
+
+        System.out.println("Calculate tax for current period");
+        System.out.println("--------------------------------------");
+        totalPersons.forEach(person -> person.calculateAllTax(true));
+        System.out.println("--------------------------------------");
+
+        System.out.println("Calculate tax overall");
+        System.out.println("--------------------------------------");
+        totalPersons.forEach(person -> person.calculateAllTax(false));
+        System.out.println("--------------------------------------");
+//        System.out.println("Pri tax overall");
+//
+//        Collections.sort(totalPersons,
+//                Comparator.comparingDouble(Person::calculateAllTax(true)));
+//        totalPersons.forEach(person -> person.calculateAllTax(true));
+//        System.out.println("--------------------------------------");
     }
 
 //    public void createAndAppendIndividual() {
