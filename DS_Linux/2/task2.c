@@ -77,6 +77,6 @@ int main (int argc, char *argv[]){
     
     int sz = write(fd, final_text, strlen(final_text));
     if (close(fd) < 0) { perror("r1"); exit(1); }
-    //printf("closed the fd.\n");
+        //printf("closed the fd.\n");
     return 0;
 }
