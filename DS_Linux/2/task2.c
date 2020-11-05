@@ -46,9 +46,9 @@ int main (int argc, char *argv[]){
             case 'f': {
                 if (optarg!=NULL) {
                     //printf("file descriptor = %s\n",optarg);
-                    fd = open(optarg, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+                    fd = open(optarg, O_WRONLY | O_TRUNC);
                     if (fd < 0) { perror("r1"); exit(1); }
-                    printf("opened the fd = %d\n", fd);
+                    //printf("opened the fd = %d\n", fd);
                 } else {
                     //printf("file descriptor error");
                 }
@@ -77,6 +77,6 @@ int main (int argc, char *argv[]){
     
     int sz = write(fd, final_text, strlen(final_text));
     if (close(fd) < 0) { perror("r1"); exit(1); }
-    printf("closed the fd.\n");
+    //printf("closed the fd.\n");
     return 0;
 }
