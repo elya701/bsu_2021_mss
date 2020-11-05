@@ -1,34 +1,3 @@
-//#include        <stdio.h>
-//#include        <fcntl.h>
-//#include        <stdlib.h>
-//#define BUF_SIZE 128
-
-//int main(int argc, char *argv[])
-//{
-//char buf[BUF_SIZE+1], s[10];
-//int fd, sector;
-//buf[BUF_SIZE+1] = '\0'; /* оканчивающийся нулем буфер для printf */
-//if((fd=open(argv[1], O_RDONLY))==-1) { /* открытие для записи */
-//printf("Cannot open file.\n");
-//exit(0);
-//}
-//do {
-//printf("Buffer: ");
-//gets(s);
-//sector = atoi(s); /* получение сектора для чтения */
-//if(lseek(fd, (long)sector*BUF_SIZE,0)==-1L)
-//printf("Seek Error\n");
-//if(read(fd, buf, BUF_SIZE)==0) {
-//printf("Read Error\n");
-//}
-//else {
-//printf("%s\n", buf);
-//}
-//} while(sector > 0);
-//close(fd);
-//return 0;
-//}
-
 #include <stdio.h>
 #include <fcntl.h>
 #include <stdlib.h>
