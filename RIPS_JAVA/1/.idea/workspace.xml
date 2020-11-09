@@ -11,15 +11,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f95812-20b2-4ea3-b71a-8b537b6d377d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/TaxFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/controller/Person.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/controller/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/controller/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/helpers/ValueComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/helpers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/helpers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/BasicTax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/CopyrightTax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/InternationalTax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/PresentTax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/SellTax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/Tax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/TaxFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/view/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/view/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/com/company/view/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/docs/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/HDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/out/production/2/com/company/model/BasicTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2/out/production/2/com/company/model/BasicTax.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/CopyrightTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/CopyrightTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/InternationalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/InternationalTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/PresentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/PresentTax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/SellTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/SellTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/TaxFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/TaxFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../4/4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/out/production/4/com/company/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4/out/production/4/com/company/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/out/production/4/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../4/out/production/4/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/com/company/cashier/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/com/company/cashier/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/com/company/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/com/company/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/com/company/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

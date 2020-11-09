@@ -14,7 +14,7 @@ public class HDD extends Device{
     public void printCapacity () {
         System.out.println("The capacity of HDD is " + this.capacity);
     }
-
+ 
     public String getDimension() {
         return dimension;
     }
