@@ -1,12 +1,14 @@
-package com.company;
+package com.company.main;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import com.company.cashier.Cashier;
+import com.company.customer.Customer;
 import org.apache.log4j.*;
 
-public class Main {
+public class Main  {
     private static final Logger MAIN_LOGGER = LogManager.getLogger("main");
 
     public static void main(String[] args) throws InterruptedException {

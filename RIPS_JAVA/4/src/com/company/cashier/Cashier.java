@@ -1,5 +1,6 @@
-package com.company;
+package com.company.cashier;
 
+import com.company.customer.Customer;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
