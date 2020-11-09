@@ -1,6 +1,6 @@
 package com.company.model;
 
-public class InternationalTax extends Tax {
+public class InternationalTax extends TaxFactory {
 
     private int input;
     private int currentPeriodInput;
@@ -33,5 +33,10 @@ public class InternationalTax extends Tax {
         if (year == 2020) {
             this.currentPeriodInput += input;
         }
+    }
+
+    @Override
+    public void _print() {
+        System.out.println("Calculated! InternationalTax");
     }
 }

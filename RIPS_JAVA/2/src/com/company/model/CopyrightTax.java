@@ -1,6 +1,6 @@
 package com.company.model;
 
-public class CopyrightTax extends Tax {
+public class CopyrightTax extends TaxFactory {
 
     private int input;
     private int currentPeriodInput;
@@ -33,5 +33,10 @@ public class CopyrightTax extends Tax {
         if (year == 2020) {
             this.currentPeriodInput += input;
         }
+    }
+
+    @Override
+    public void _print() {
+        System.out.println("Calculated! CopyrightTax");
     }
 }
