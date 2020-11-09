@@ -1,0 +1,321 @@
+2020-11-09 13:24:13 INFO  main:52 - Starting program
+2020-11-09 13:24:13 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:24:13 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:24:13 INFO  main:61 - Parsing the text
+2020-11-09 13:24:13 INFO  main:65 - Ended parsing the text
+2020-11-09 13:24:13 INFO  main:74 - Building the text
+2020-11-09 13:24:13 INFO  main:76 - Ended building the text
+2020-11-09 13:24:13 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:24:13 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:24:13 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:24:13 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:24:13 INFO  main:99 - Ending program
+2020-11-09 13:25:37 INFO  main:52 - Starting program
+2020-11-09 13:25:37 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:25:37 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:25:37 INFO  main:61 - Parsing the text
+2020-11-09 13:25:37 INFO  main:65 - Ended parsing the text
+2020-11-09 13:25:37 INFO  main:74 - Building the text
+2020-11-09 13:25:37 INFO  main:76 - Ended building the text
+2020-11-09 13:25:37 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:25:37 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:25:37 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:25:37 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:25:37 INFO  main:99 - Ending program
+2020-11-09 13:26:04 INFO  main:52 - Starting program
+2020-11-09 13:26:04 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:26:04 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:26:04 INFO  main:61 - Parsing the text
+2020-11-09 13:26:04 INFO  main:65 - Ended parsing the text
+2020-11-09 13:26:04 INFO  main:74 - Building the text
+2020-11-09 13:26:04 INFO  main:76 - Ended building the text
+2020-11-09 13:26:04 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:26:04 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:26:04 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:26:04 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:26:04 INFO  main:99 - Ending program
+2020-11-09 13:26:43 INFO  main:52 - Starting program
+2020-11-09 13:26:43 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:26:43 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:26:43 INFO  main:61 - Parsing the text
+2020-11-09 13:26:43 INFO  textParser:36 - Start parsing
+2020-11-09 13:26:43 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:26:43 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:26:43 INFO  textParser:66 - End parsing
+2020-11-09 13:26:43 INFO  main:65 - Ended parsing the text
+2020-11-09 13:26:43 INFO  main:74 - Building the text
+2020-11-09 13:26:43 INFO  main:76 - Ended building the text
+2020-11-09 13:26:43 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:26:43 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:26:43 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:26:43 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:26:43 INFO  main:99 - Ending program
+2020-11-09 13:28:54 INFO  main:52 - Starting program
+2020-11-09 13:28:54 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:28:54 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:28:54 INFO  main:61 - Parsing the text
+2020-11-09 13:28:54 INFO  textParser:36 - Start parsing
+2020-11-09 13:28:54 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:28:54 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:28:54 INFO  textParser:66 - End parsing
+2020-11-09 13:28:54 INFO  main:65 - Ended parsing the text
+2020-11-09 13:28:54 INFO  main:74 - Building the text
+2020-11-09 13:28:54 INFO  main:76 - Ended building the text
+2020-11-09 13:28:54 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:28:54 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:28:54 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:28:54 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:28:54 INFO  main:99 - Ending program
+2020-11-09 13:31:29 INFO  main:52 - Starting program
+2020-11-09 13:31:29 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:31:29 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:31:29 INFO  main:61 - Parsing the text
+2020-11-09 13:31:29 INFO  textParser:36 - Start parsing
+2020-11-09 13:31:29 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:31:29 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:31:29 INFO  textParser:66 - End parsing
+2020-11-09 13:31:29 INFO  main:65 - Ended parsing the text
+2020-11-09 13:31:29 INFO  main:74 - Building the text
+2020-11-09 13:31:29 INFO  main:76 - Ended building the text
+2020-11-09 13:31:29 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:31:29 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:31:29 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:31:29 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:31:29 INFO  main:99 - Ending program
+2020-11-09 13:31:38 INFO  main:52 - Starting program
+2020-11-09 13:31:38 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:31:38 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:31:38 INFO  main:61 - Parsing the text
+2020-11-09 13:31:38 INFO  textParser:36 - Start parsing
+2020-11-09 13:31:38 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:31:39 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:31:39 INFO  textParser:66 - End parsing
+2020-11-09 13:31:39 INFO  main:65 - Ended parsing the text
+2020-11-09 13:31:39 INFO  main:74 - Building the text
+2020-11-09 13:31:39 INFO  main:76 - Ended building the text
+2020-11-09 13:31:39 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:31:39 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:31:39 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:31:39 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:31:39 INFO  main:99 - Ending program
+2020-11-09 13:48:59 INFO  main:52 - Starting program
+2020-11-09 13:48:59 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:48:59 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:48:59 INFO  main:61 - Parsing the text
+2020-11-09 13:48:59 INFO  textParser:36 - Start parsing
+2020-11-09 13:48:59 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:48:59 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:48:59 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:48:59 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:48:59 INFO  textParser:66 - End parsing
+2020-11-09 13:48:59 INFO  main:65 - Ended parsing the text
+2020-11-09 13:48:59 INFO  main:74 - Building the text
+2020-11-09 13:48:59 INFO  main:76 - Ended building the text
+2020-11-09 13:48:59 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:48:59 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:48:59 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:48:59 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:48:59 INFO  main:99 - Ending program
+2020-11-09 13:49:53 INFO  main:52 - Starting program
+2020-11-09 13:49:53 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:49:53 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:49:53 INFO  main:61 - Parsing the text
+2020-11-09 13:49:53 INFO  textParser:36 - Start parsing
+2020-11-09 13:49:53 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:49:53 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:49:53 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:49:53 INFO  textParser:66 - End parsing
+2020-11-09 13:49:53 INFO  main:65 - Ended parsing the text
+2020-11-09 13:49:53 INFO  main:74 - Building the text
+2020-11-09 13:49:53 INFO  main:76 - Ended building the text
+2020-11-09 13:49:53 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:49:53 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:49:53 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:49:53 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:49:53 INFO  main:99 - Ending program
+2020-11-09 13:51:27 INFO  main:52 - Starting program
+2020-11-09 13:51:27 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:51:27 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:51:27 INFO  main:61 - Parsing the text
+2020-11-09 13:51:27 INFO  textParser:36 - Start parsing
+2020-11-09 13:51:27 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:51:27 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:51:27 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:51:27 INFO  textParser:66 - End parsing
+2020-11-09 13:51:27 INFO  main:65 - Ended parsing the text
+2020-11-09 13:51:27 INFO  main:74 - Building the text
+2020-11-09 13:51:27 INFO  main:76 - Ended building the text
+2020-11-09 13:51:27 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:51:27 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:51:27 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:51:27 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:51:27 INFO  main:99 - Ending program
+2020-11-09 13:52:09 INFO  main:52 - Starting program
+2020-11-09 13:52:09 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:52:09 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:52:09 INFO  main:61 - Parsing the text
+2020-11-09 13:52:09 INFO  textParser:36 - Start parsing
+2020-11-09 13:52:09 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:09 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:09 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:09 INFO  textParser:66 - End parsing
+2020-11-09 13:52:09 INFO  main:65 - Ended parsing the text
+2020-11-09 13:52:09 INFO  main:74 - Building the text
+2020-11-09 13:52:09 INFO  main:76 - Ended building the text
+2020-11-09 13:52:09 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:52:09 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:52:09 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:52:09 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:52:09 INFO  main:99 - Ending program
+2020-11-09 13:52:38 INFO  main:52 - Starting program
+2020-11-09 13:52:38 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:52:38 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:52:38 INFO  main:61 - Parsing the text
+2020-11-09 13:52:38 INFO  textParser:36 - Start parsing
+2020-11-09 13:52:38 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:38 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:38 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:38 INFO  textParser:66 - End parsing
+2020-11-09 13:52:38 INFO  main:65 - Ended parsing the text
+2020-11-09 13:52:38 INFO  main:74 - Building the text
+2020-11-09 13:52:38 INFO  main:76 - Ended building the text
+2020-11-09 13:52:38 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:52:38 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:52:38 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:52:38 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:52:38 INFO  main:99 - Ending program
+2020-11-09 13:52:56 INFO  main:52 - Starting program
+2020-11-09 13:52:56 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:52:56 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:52:56 INFO  main:61 - Parsing the text
+2020-11-09 13:52:56 INFO  textParser:36 - Start parsing
+2020-11-09 13:52:56 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:56 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:56 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:52:56 INFO  textParser:66 - End parsing
+2020-11-09 13:52:56 INFO  main:65 - Ended parsing the text
+2020-11-09 13:52:56 INFO  main:74 - Building the text
+2020-11-09 13:52:56 INFO  main:76 - Ended building the text
+2020-11-09 13:52:56 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:52:56 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:52:56 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:52:56 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:52:56 INFO  main:99 - Ending program
+2020-11-09 13:53:10 INFO  main:52 - Starting program
+2020-11-09 13:53:10 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:53:10 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:53:10 INFO  main:61 - Parsing the text
+2020-11-09 13:53:10 INFO  textParser:36 - Start parsing
+2020-11-09 13:53:10 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:10 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:10 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:10 INFO  textParser:66 - End parsing
+2020-11-09 13:53:10 INFO  main:65 - Ended parsing the text
+2020-11-09 13:53:10 INFO  main:74 - Building the text
+2020-11-09 13:53:10 INFO  main:76 - Ended building the text
+2020-11-09 13:53:10 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:53:10 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:53:10 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:53:10 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:53:10 INFO  main:99 - Ending program
+2020-11-09 13:53:31 INFO  main:52 - Starting program
+2020-11-09 13:53:31 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:53:31 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:53:31 INFO  main:61 - Parsing the text
+2020-11-09 13:53:31 INFO  textParser:36 - Start parsing
+2020-11-09 13:53:31 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:31 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:31 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:31 INFO  textParser:66 - End parsing
+2020-11-09 13:53:31 INFO  main:65 - Ended parsing the text
+2020-11-09 13:53:31 INFO  main:74 - Building the text
+2020-11-09 13:53:31 INFO  main:76 - Ended building the text
+2020-11-09 13:53:31 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:53:31 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:53:31 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:53:31 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:53:31 INFO  main:99 - Ending program
+2020-11-09 13:53:46 INFO  main:52 - Starting program
+2020-11-09 13:53:46 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:53:46 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:53:46 INFO  main:61 - Parsing the text
+2020-11-09 13:53:46 INFO  textParser:36 - Start parsing
+2020-11-09 13:53:46 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:46 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:53:46 INFO  textParser:66 - End parsing
+2020-11-09 13:53:46 INFO  main:65 - Ended parsing the text
+2020-11-09 13:53:46 INFO  main:74 - Building the text
+2020-11-09 13:53:46 INFO  main:76 - Ended building the text
+2020-11-09 13:53:46 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:53:46 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:53:46 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:53:46 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:53:46 INFO  main:99 - Ending program
+2020-11-09 13:54:37 INFO  main:52 - Starting program
+2020-11-09 13:54:37 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:54:37 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:54:37 INFO  main:61 - Parsing the text
+2020-11-09 13:54:37 INFO  textParser:36 - Start parsing
+2020-11-09 13:54:37 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:37 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:37 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:37 INFO  textParser:66 - End parsing
+2020-11-09 13:54:37 INFO  main:65 - Ended parsing the text
+2020-11-09 13:54:37 INFO  main:74 - Building the text
+2020-11-09 13:54:37 INFO  main:76 - Ended building the text
+2020-11-09 13:54:37 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:54:37 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:54:37 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:54:37 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:54:37 INFO  main:99 - Ending program
+2020-11-09 13:54:52 INFO  main:52 - Starting program
+2020-11-09 13:54:52 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:54:52 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:54:52 INFO  main:61 - Parsing the text
+2020-11-09 13:54:52 INFO  textParser:36 - Start parsing
+2020-11-09 13:54:52 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:52 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:52 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:54:52 INFO  textParser:66 - End parsing
+2020-11-09 13:54:52 INFO  main:65 - Ended parsing the text
+2020-11-09 13:54:52 INFO  main:74 - Building the text
+2020-11-09 13:54:52 INFO  main:76 - Ended building the text
+2020-11-09 13:54:52 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:54:52 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:54:52 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:54:52 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:54:52 INFO  main:99 - Ending program
+2020-11-09 13:55:14 INFO  main:52 - Starting program
+2020-11-09 13:55:14 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:55:14 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:55:14 INFO  main:61 - Parsing the text
+2020-11-09 13:55:14 INFO  textParser:36 - Start parsing
+2020-11-09 13:55:14 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:14 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:14 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:14 INFO  textParser:66 - End parsing
+2020-11-09 13:55:14 INFO  main:65 - Ended parsing the text
+2020-11-09 13:55:14 INFO  main:74 - Building the text
+2020-11-09 13:55:14 INFO  main:76 - Ended building the text
+2020-11-09 13:55:14 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:55:14 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:55:14 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:55:14 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:55:14 INFO  main:99 - Ending program
+2020-11-09 13:55:19 INFO  main:52 - Starting program
+2020-11-09 13:55:19 INFO  main:30 - Loading text from input.txt
+2020-11-09 13:55:19 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 13:55:19 INFO  main:61 - Parsing the text
+2020-11-09 13:55:19 INFO  textParser:36 - Start parsing
+2020-11-09 13:55:19 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:19 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:19 INFO  textParser:43 - Parsed paragraph
+2020-11-09 13:55:19 INFO  textParser:66 - End parsing
+2020-11-09 13:55:19 INFO  main:65 - Ended parsing the text
+2020-11-09 13:55:19 INFO  main:74 - Building the text
+2020-11-09 13:55:19 INFO  main:76 - Ended building the text
+2020-11-09 13:55:19 INFO  main:80 - Sorting words by vowels share
+2020-11-09 13:55:19 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 13:55:19 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 13:55:19 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 13:55:19 INFO  main:99 - Ending program

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.company.controller"},{"l":"com.company.localization"},{"l":"com.company.text"},{"l":"com.company.text.parsers"}]
