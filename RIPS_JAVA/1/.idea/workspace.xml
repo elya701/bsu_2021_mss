@@ -11,19 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f95812-20b2-4ea3-b71a-8b537b6d377d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/controller/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/BasicTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/CopyrightTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/InternationalTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/PresentTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/SellTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/src/com/company/model/TaxFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2/out/production/2/com/company/model/Individual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2/out/production/2/com/company/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2/out/production/2/com/company/view/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/Individual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2/src/com/company/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/out/production/2/com/company/model/BasicTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2/out/production/2/com/company/model/BasicTax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/CopyrightTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/CopyrightTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/InternationalTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/InternationalTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/PresentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/PresentTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/com/company/model/SellTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/com/company/model/SellTax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,25 +132,30 @@
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.949@0.23.1680.949" timestamp="1601863516478" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1601902153946">
+    <state x="584" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604919623900">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1601902153946" />
+    <state x="584" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1680.1050@0.0.1680.1050" timestamp="1604919623900" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1604919713946">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604919713946" />
     <state width="1358" height="240" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1601864436223" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1601902153945">
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1604919713944">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1601902153945" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604919713944" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.972@0.0.1680.1050" timestamp="1604919713940" />
     <state width="1358" height="240" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1601864436222" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1601902153944">
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1604919713944">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1601902153944" />
-    <state width="1358" height="240" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1601864436222" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1601902153946">
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604919713944" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1604919713921" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1604919713945">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1601902153946" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604919713945" />
     <state width="1358" height="240" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1601864436223" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1601864390369">
       <screen x="0" y="23" width="1680" height="949" />

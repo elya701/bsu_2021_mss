@@ -1,8 +1,13 @@
 package com.company;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import java.util.Queue;
 
 public class Cashier extends Thread {
+
+    private final static Logger cashier_LOGGER = LogManager.getLogger("cashier");
 
     private Queue<Customer> customerQueue;
 
@@ -29,8 +34,10 @@ public class Cashier extends Thread {
                     customerQueue.notifyAll();
                 }
 
+                cashier_LOGGER.info(this + " have start to serve " + currentCustomer);
                 System.out.println(this + " have start to serve " + currentCustomer);
                 Thread.sleep(500 * currentCustomer.getTaskQty());
+                cashier_LOGGER.info(currentCustomer.getTaskQty()+ " tasks of " + currentCustomer + " was served by " + this);
                 System.out.println(currentCustomer.getTaskQty()+ " tasks of " + currentCustomer + " was served by " + this);
 
             } catch (InterruptedException e) {
