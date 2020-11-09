@@ -1,0 +1,77 @@
+Script started on Mon Nov  9 14:22:02 2020
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m kdri[K[K[K[Km[Kmkdir kharchenko
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m dir
+Desktop    Pictures   kharchenko	     timelog3kharchenko13.txt
+Documents  Public     python_games
+Downloads  Templates  shared
+Music	   Videos     task3kharchenko13.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cal
+cal: setlocale: No such file or directory
+   November 2020      
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8 [7m 9[27m 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30                 
+                      
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m date
+Mon Nov  9 14:23:22 GMT 2020
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m who
+pi       tty1         Nov  9 14:19
+pi       :0           Nov  9 14:19 (:0)
+pi       pts/0        Nov  9 14:20 (192.168.56.102)
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m whoami
+pi
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee
+fdafsgfd
+fdafsgfd
+fadf
+fadf
+eco
+eco
+^C
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ec[K[K"123" | tee test/t[K[K.txt
+bash: 123: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m "123" | tee test.txt[1@e[1@c[1@o[1@ [1P[1P[1P[1@h[1@o[1@ [1P[1P[1P[1@c[1@h[1@o[1@ 
+123
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat test.txt
+123
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m vi test.txt
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"test.txt" 1 line, 4 characters[1;1H123
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[m12[?25l[24;1H[K[24;1H:.,.+3[?12l[?25h[?25l[24;6H[K[24;6H[?12l[?25h[?25l[24;5H[K[24;5H[?12l[?25h[?25l[24;4H[K[24;4H[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25h [1;3H12[?25l[2;1H[K[2;1H[?12l[?25h[?25l3[?12l[?25h[?25l[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lg[?12l[?25h[?25lo[?12l[?25h[?25lo[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l[?12l[?25h[?25l[2;5H[K[3;1H[K[3;1H[?12l[?25h[?25l:[?12l[?25h[?25l[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l[24;1H:[?12l[?25hwq[?25l"test.txt" 3 lines, 10 characters written
+[?1l>[?12l[?25h[?1049l]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m unlink --help
+Usage: unlink FILE
+  or:  unlink OPTION
+Call the unlink function to remove the specified FILE.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Report unlink translation bugs to <http://translationproject.org/team/>
+Full documentation at: <http://www.gnu.org/software/coreutils/unlink>
+or available locally via: info '(coreutils) unlink invocation'
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cp tet[Kst.txtc[K kharchenko/test.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd kharchenko/
+]0;pi@raspberry: ~/kharchenko[01;32mpi@raspberry[00m:[01;34m~/kharchenko $[00m dir
+test.txt
+]0;pi@raspberry: ~/kharchenko[01;32mpi@raspberry[00m:[01;34m~/kharchenko $[00m uni[Kli[K[K[K[Kcd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m unlink k[Kkharchenko/some[K[K[K[Ktest.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m dit kharchenko
+bash: dit: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m dit kharchenko[1P kharchenkor kharchenko
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;34mDesktop[0m    [01;34mPictures[0m   [01;34mkharchenko[0m             test.txt
+[01;34mDocuments[0m  [01;34mPublic[0m     [01;34mpython_games[0m           timelog3kharchenko13.txt
+[01;34mDownloads[0m  [01;34mTemplates[0m  [01;34mshared[0m
+[01;34mMusic[0m      [01;34mVideos[0m     task3kharchenko13.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m lsdir kharchenko
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cd kharchenko
+]0;pi@raspberry: ~/kharchenko[01;32mpi@raspberry[00m:[01;34m~/kharchenko $[00m ls
+]0;pi@raspberry: ~/kharchenko[01;32mpi@raspberry[00m:[01;34m~/kharchenko $[00m cd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m clear
+[3;J[H[2J]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on Mon Nov  9 14:34:35 2020

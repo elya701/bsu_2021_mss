@@ -1,0 +1,116 @@
+Script started on 2020-11-09 17:16:27+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# help
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                history [-c] [-d offset] [n] or history -anrw [filename]>
+ (( expression ))                                            if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMAN>
+ . filename [arguments]                                      jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                           kill [-s sigspec | -n signum | -sigspec] pid | jobspec .>
+ [ arg... ]                                                  let arg [arg ...]
+ [[ expression ]]                                            local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                              logout [n]
+ bg [job_spec ...]                                           mapfile [-d delim] [-n count] [-O origin] [-s count] [-t>
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u >  popd [-n] [+N | -N]
+ break [n]                                                   printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                           pushd [-n] [+N | -N | dir]
+ caller [expr]                                               pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esa>  read [-ers] [-a array] [-d delim] [-i text] [-n nchars] >
+ cd [-L|[-P [-e]] [-@]] [dir]                                readarray [-d delim] [-n count] [-O origin] [-s count] [>
+ command [-pVv] command [arg ...]                            readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globp>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A act>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DEI] [name ...]                    set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+ continue [n]                                                shift [n]
+ coproc [NAME] command [redirections]                        shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=value] ...]             source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                      suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                   test [expr]
+ echo [-neE] [arg ...]                                       time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                times
+ eval [arg ...]                                              trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [arguments ...]] [redirecti>  true
+ exit [n]                                                    type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                typeset [-aAfFgilnrtux] [-p] name[=value] ...
+ false                                                       ulimit [-SHabcdefiklmnpqrstuvxPT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [c>  umask [-p] [-S] [mode]
+ fg [job_spec]                                               unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done               until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }      variables - Names and meanings of some shell variables
+ getopts optstring name [arg]                                wait [-fn] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                   while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]                                   { COMMANDS ; }
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# ls
+[0m[01;34msnap[0m  task3kharchenko13.txt  timelog3kharchenko13.txt
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# cd
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# pwd
+/root
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# mkdir test_folder
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# rmdir
+rmdir: missing operand
+Try 'rmdir --help' for more information.
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# rm
+rm: missing operand
+Try 'rm --help' for more information.
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# rmdir --help
+Usage: rmdir [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+
+      --ignore-fail-on-non-empty
+                  ignore each failure that is solely because a directory
+                    is non-empty
+  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is
+                    similar to 'rmdir a/b/c a/b a'
+  -v, --verbose   output a diagnostic for every directory processed
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/rmdir>
+or available locally via: info '(coreutils) rmdir invocation'
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# rmdir text[K[Kst_folder/
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# rm
+rm: missing operand
+Try 'rm --help' for more information.
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# g[Khistory
+    1  help
+    2  ls
+    3  cd
+    4  pwd
+    5  mkdir
+    6  mkdir test_folder
+    7  rmdir
+    8  rm
+    9  rmdir --help
+   10  rmdir test_folder/
+   11  rm
+   12  history
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# clear
+[H[2J[3J]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# clearhistory
+    1  help
+    2  ls
+    3  cd
+    4  pwd
+    5  mkdir
+    6  mkdir test_folder
+    7  rmdir
+    8  rm
+    9  rmdir --help
+   10  rmdir test_folder/
+   11  rm
+   12  history
+   13  clear
+   14  history
+]0;root@kharchenko13-PC: ~root@kharchenko13-PC:~# exit
+exit
+
+Script done on 2020-11-09 17:17:24+03:00 [COMMAND_EXIT_CODE="0"]
