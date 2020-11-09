@@ -1,0 +1,33 @@
+Script started on 2020-11-09 18:15:14+03:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ mkdir kharchenko
+mkdir: cannot create directory ‘kharchenko’: File exists
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ sudo apt install git
+[sudo] password for kharchenko13: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 198 not upgraded.
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ git clone https://github.com/elya701/bsu_2021_mss.git
+fatal: destination path 'bsu_2021_mss' already exists and is not an empty directory.
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ scp -r pi@192.168.56.101:/home/pi/task3_rasp/hom e [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K/ /h o[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K /ho me/kharchenko13/kharchenko[K[K[K[K[K[K[K[K[K[Kbbsu[K[K[Ks[Ksu_,[K2021_mss_PMVS_P[K[K/[K[K[K[K[K[K/PMVS/PNVS[K[K[KM[KMVS_LIN[K[Kinux/
+pi@192.168.56.101's password: 
+test.txt                                        0%    0     0.0KB/s   --:-- ETAtest.txt                                      100%   10     9.7KB/s   00:00    
+task3kharchenko13.txt                           0%    0     0.0KB/s   --:-- ETAtask3kharchenko13.txt                         100% 6707     6.6MB/s   00:00    
+timelog3kharchenko13.txt                        0%    0     0.0KB/s   --:-- ETAtimelog3kharchenko13.txt                      100% 5741     5.7MB/s   00:00    
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ clear
+[H[2J[3J]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ ls
+[0m[01;34mbsu_2021_mss[0m  [01;34mkharchenko[0m  [01;34msnap[0m                   timelog3kharchenko13.txt
+[01;34mDesktop[0m       [01;34mMusic[0m       task3kharchenko13.txt  timelog4kharchenko13
+[01;34mDocuments[0m     [01;34mPictures[0m    task4kharchenko13.txt  [01;34mVideos[0m
+[01;34mDownloads[0m     [01;34mPublic[0m      [01;34mTemplates[0m
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ cp task3kharchenko13.txt bsu_mss[K[K[K2021_mss/PMVS/PMVS_ Linux
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ cp task3kharchenko13.txt bsu_2021_mss/PMVS/PMVS_Linux[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt bsu_2021_mss/PMVS/PMVS_Li[1Pnux[A]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt bsu_2021_mss/PMVS/PMVS_Lin[1Pux[A]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt bsu_2021_mss/PMVS/PMVS_Linu[1Px[A]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt bsu_2021_mss/PMVS/PMVS_Linux[K[A]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt bsu_2021_mss/PMVS/PMVS_Linux [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[1P bsu_2021_mss/PMVS/PMVS_Linux[1P bsu_2021_mss/PMVS/PMVS_Linux[1P bsu_2021_mss/PMVS/PMVS_Linux[1P bsu_2021_mss/PMVS/PMVS_Linux[C bsu_2021_mss/PMVS/PMVS_Linuxt bsu_2021_mss/PMVS/PMVS_Linuxi bsu_2021_mss/PMVS/PMVS_Linuxe bsu_2021_mss/PMVS/PMVS_Linux[1P bsu_2021_mss/PMVS/PMVS_Linuxm bsu_2021_mss/PMVS/PMVS_Linuxe bsu_2021_mss/PMVS/PMVS_Linuxlog bsu_2021_mss/PMVS/PMVS_Linux3 bsu_2021_mss/PMVS/PMVS_Linuxkharchenko13.txt bsu_2021_mss/PMVS/PMVS_Linux[A]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;kharchenko13@kharchenko13-PC: ~kharchenko13@kharchenko13-PC:~$ exit
+exit
+
+Script done on 2020-11-09 18:29:40+03:00 [COMMAND_EXIT_CODE="0"]
