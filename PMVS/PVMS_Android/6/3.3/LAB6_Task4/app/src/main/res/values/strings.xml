@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LAB6_Task4</string>
+    <string name="squareM">m²</string>
+    <string name="squareKM">km²</string>
+    <string name="ga">ga</string>
+    <string name="squareFT">ft²</string>
+    <string name="quadraChile">quadra Chile</string>
+    <string name="quadraUruguay">quadra Uruguay</string>
+    <string name="donumСyprus">donum Сyprus</string>
+    <string name="mansanCostaRica">manzana Costa Rica</string>
+    <string name="result">Result: </string>
+    <string name="calculate">Calculate</string>
+</resources>
