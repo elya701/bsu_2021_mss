@@ -1,0 +1,29 @@
+2020-11-09 15:36:32 INFO  main:52 - Starting program
+2020-11-09 15:36:32 INFO  main:30 - Loading text from input.txt
+2020-11-09 15:36:32 WARN  main:37 - Error reading from file
+2020-11-09 15:36:32 WARN  main:96 - [com.company.controller.Main.loadTextStringFromFile(Main.java:38), com.company.controller.Main.main(Main.java:57)]
+2020-11-09 15:36:32 INFO  main:99 - Ending program
+2020-11-09 15:37:23 INFO  main:52 - Starting program
+2020-11-09 15:37:23 INFO  main:30 - Loading text from input.txt
+2020-11-09 15:37:23 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 15:37:23 INFO  main:61 - Parsing the text
+2020-11-09 15:37:23 INFO  main:65 - Ended parsing the text
+2020-11-09 15:37:23 INFO  main:74 - Building the text
+2020-11-09 15:37:23 INFO  main:76 - Ended building the text
+2020-11-09 15:37:23 INFO  main:80 - Sorting words by vowels share
+2020-11-09 15:37:23 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 15:37:23 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 15:37:23 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 15:37:23 INFO  main:99 - Ending program
+2020-11-09 15:38:18 INFO  main:52 - Starting program
+2020-11-09 15:38:18 INFO  main:30 - Loading text from input.txt
+2020-11-09 15:38:18 INFO  main:41 - Finish loading text from input.txt
+2020-11-09 15:38:18 INFO  main:61 - Parsing the text
+2020-11-09 15:38:18 INFO  main:65 - Ended parsing the text
+2020-11-09 15:38:18 INFO  main:74 - Building the text
+2020-11-09 15:38:18 INFO  main:76 - Ended building the text
+2020-11-09 15:38:18 INFO  main:80 - Sorting words by vowels share
+2020-11-09 15:38:18 INFO  main:83 - Ended sorting words by vowels share
+2020-11-09 15:38:18 INFO  main:87 - Sorting words with first vowel by first consonant
+2020-11-09 15:38:18 INFO  main:90 - Ended sorting words with first vowel by first consonant
+2020-11-09 15:38:18 INFO  main:99 - Ending program

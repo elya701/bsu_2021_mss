@@ -9,7 +9,7 @@ public class LocaleManager {
 
     }
 
-    public static String DEFAULT_LOCALE = "ru";
+    public static String DEFAULT_LOCALE = "en";
     private static Locale locale = new Locale(DEFAULT_LOCALE);
 
     private static final String BUNDLE_PATH = "com/company/localization/locales/locale";
