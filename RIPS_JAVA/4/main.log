@@ -1,3 +1,6 @@
 2020-11-09 14:45:05 INFO  main:26 - Creating cashiers
 2020-11-09 14:45:05 INFO  main:38 - Creating customers
 2020-11-09 14:45:10 INFO  main:51 - All customers have been served
+2020-11-09 15:39:45 INFO  main:28 - Creating cashiers
+2020-11-09 15:39:45 INFO  main:40 - Creating customers
+2020-11-09 15:39:52 INFO  main:53 - All customers have been served

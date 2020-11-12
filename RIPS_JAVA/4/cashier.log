@@ -15,3 +15,20 @@
 2020-11-09 14:45:10 INFO  cashier:37 - cashier 0 have start to serve Customer 8
 2020-11-09 14:45:10 INFO  cashier:40 - 7 tasks of Customer 5 was served by cashier 1
 2020-11-09 14:45:10 INFO  cashier:37 - cashier 1 have start to serve Customer 9
+2020-11-09 15:39:45 INFO  cashier:38 - cashier 1 have start to serve Customer 2
+2020-11-09 15:39:45 INFO  cashier:38 - cashier 0 have start to serve Customer 0
+2020-11-09 15:39:45 INFO  cashier:38 - cashier 2 have start to serve Customer 1
+2020-11-09 15:39:45 INFO  cashier:41 - 1 tasks of Customer 0 was served by cashier 0
+2020-11-09 15:39:45 INFO  cashier:38 - cashier 0 have start to serve Customer 3
+2020-11-09 15:39:46 INFO  cashier:41 - 3 tasks of Customer 1 was served by cashier 2
+2020-11-09 15:39:46 INFO  cashier:38 - cashier 2 have start to serve Customer 4
+2020-11-09 15:39:47 INFO  cashier:41 - 4 tasks of Customer 2 was served by cashier 1
+2020-11-09 15:39:47 INFO  cashier:38 - cashier 1 have start to serve Customer 5
+2020-11-09 15:39:48 INFO  cashier:41 - 5 tasks of Customer 3 was served by cashier 0
+2020-11-09 15:39:48 INFO  cashier:38 - cashier 0 have start to serve Customer 6
+2020-11-09 15:39:50 INFO  cashier:41 - 6 tasks of Customer 5 was served by cashier 1
+2020-11-09 15:39:50 INFO  cashier:38 - cashier 1 have start to serve Customer 7
+2020-11-09 15:39:50 INFO  cashier:41 - 8 tasks of Customer 4 was served by cashier 2
+2020-11-09 15:39:50 INFO  cashier:38 - cashier 2 have start to serve Customer 8
+2020-11-09 15:39:52 INFO  cashier:41 - 4 tasks of Customer 7 was served by cashier 1
+2020-11-09 15:39:52 INFO  cashier:38 - cashier 1 have start to serve Customer 9
