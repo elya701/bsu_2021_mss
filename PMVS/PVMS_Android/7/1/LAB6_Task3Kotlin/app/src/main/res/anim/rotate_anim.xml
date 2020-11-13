@@ -11,12 +11,12 @@
         android:toXScale="1.4" android:toYScale="0.6" />
     <set android:interpolator="@android:anim/decelerate_interpolator" >
         <scale
-            android:duration="400"
+            android:duration="500"
             android:fillBefore="false"
             android:fromXScale="1.4"
             android:fromYScale="0.6"
-            android:pivotX="50%"
-            android:pivotY="50%"
+            android:pivotX="60%"
+            android:pivotY="60%"
             android:startOffset="700"
             android:toXScale="0.0"
             android:toYScale="0.0" />
@@ -26,7 +26,7 @@
             android:pivotX="50%"
             android:pivotY="50%"
             android:startOffset="700"
-            android:toDegrees="-45"
+            android:toDegrees="-55"
             android:toYScale="0.0" />
     </set>
 </set>
