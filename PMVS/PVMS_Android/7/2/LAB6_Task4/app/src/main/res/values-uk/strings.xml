@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LAB6_Task4</string>
+    <string name="squareM">м²</string>
+    <string name="squareKM">км²</string>
+    <string name="ga">га</string>
+    <string name="squareFT">фт²</string>
+    <string name="quadraChile">квадра Чилі</string>
+    <string name="quadraUruguay">квадра Уругвай</string>
+    <string name="donumСyprus">донум на Кіпрі</string>
+    <string name="mansanCostaRica">мансана Коста Рік</string>
+    <string name="result">Результат: </string>
+    <string name="calculate">Розрахувати</string>
+    <string name="phi">Филиппины</string>
+    <string name="move">Секрет :)</string>
+    <string name="special">Вы выбрали секретную кнопку</string>
+</resources>

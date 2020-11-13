@@ -12,13 +12,4 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="186dp"
         android:src="@drawable/philippiens"/>
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="@string/enjoy"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 </RelativeLayout>
