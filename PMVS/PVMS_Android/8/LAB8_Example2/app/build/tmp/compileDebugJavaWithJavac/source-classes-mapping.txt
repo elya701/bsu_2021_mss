@@ -1,0 +1,4 @@
+com/example/lab8_example2/MainActivity.java
+ com.example.lab8_example2.MainActivity
+com/example/lab8_example2/BuildConfig.java
+ com.example.lab8_example2.BuildConfig

@@ -1,0 +1,5 @@
+com/example/lab8_task1/MainActivity.java
+ com.example.lab8_task1.MainActivity
+ com.example.lab8_task1.MainActivity$MyGestListener
+com/example/lab8_task1/BuildConfig.java
+ com.example.lab8_task1.BuildConfig

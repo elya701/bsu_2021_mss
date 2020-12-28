@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Guess_The_Number</string>
+    <string name="behind">Недолёт!</string>
+    <string name="ahead">Перелёт!</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть ещё</string>
+    <string name="try_again">Попробовать ещё раз</string>
+    <string name="end_tries">Количество попыток равно 0</string>
+    <string name="try_to_guess">Попробуй угадать число (1 &#8211; 100)</string>
+    <string name="error">Неверный ввод!</string>
+    <string name="info_author">Харченко Роман.</string>
+    <string name="info_button">Информация об авторе</string>
+    <string name="win">Победа</string>
+    <string name="cancel">Ок!</string>
+    <string name="login" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+</resources>

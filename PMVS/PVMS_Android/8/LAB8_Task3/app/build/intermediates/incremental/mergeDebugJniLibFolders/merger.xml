@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/romankharchenko/Desktop/Study/Git/bsu_2021_mss/PMVS/PVMS_Android/8/LAB8_Task3/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/romankharchenko/Desktop/Study/Git/bsu_2021_mss/PMVS/PVMS_Android/8/LAB8_Task3/app/src/debug/jniLibs"/></dataSet></merger>

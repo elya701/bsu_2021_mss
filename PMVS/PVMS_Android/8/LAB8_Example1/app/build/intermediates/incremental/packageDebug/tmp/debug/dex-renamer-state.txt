@@ -1,0 +1,7 @@
+#Sat Dec 12 10:25:26 MSK 2020
+base.0=/Users/romankharchenko/Desktop/Study/Git/bsu_2021_mss/PMVS/PVMS_Android/8/LAB8_Example1/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/romankharchenko/Desktop/Study/Git/bsu_2021_mss/PMVS/PVMS_Android/8/LAB8_Example1/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

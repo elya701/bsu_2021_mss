@@ -1,0 +1,4 @@
+com/example/lab6_task2/BuildConfig.java
+ com.example.lab6_task2.BuildConfig
+com/example/lab6_task2/MainActivity.java
+ com.example.lab6_task2.MainActivity
