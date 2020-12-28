@@ -1,0 +1,96 @@
+Script started on 2020-12-28 12:41:54+0000
+]0;root@idena-24: ~root@idena-24:~# mkdir examples
+]0;root@idena-24: ~root@idena-24:~# pwd
+/root
+]0;root@idena-24: ~root@idena-24:~# ls -la > examples/log.txt
+]0;root@idena-24: ~root@idena-24:~# awk '/bash/ {print}' examples/*
+-rw-------  1 root root     3182 Dec 28 12:41 .bash_history
+-rw-r--r--  1 root root     3106 Apr  9  2018 .bashrc
+]0;root@idena-24: ~root@idena-24:~# awk '/config/' examples/*
+drwxr-xr-x 12 root root     4096 Dec 17 11:54 .config
+]0;root@idena-24: ~root@idena-24:~# awk '/QUIT|SETDATE/' /usr/include/protocols/*
+#define	TSP_QUIT		13	/* reject candidature if master is up */
+#define	TSP_SETDATE		22	/* New from date command */
+#define	TSP_SETDATEREQ		23	/* New remote for above */
+  "SLAVEUP", "ELECTION", "ACCEPT", "REFUSE", "CONFLICT", "RESOLVE", "QUIT",
+  "TEST", "SETDATE", "SETDATEREQ", "LOOP" };
+]0;root@idena-24: ~root@idena-24:~# nan [Ko myfile
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                           myfile                                                                                                      [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[3dThis is a test.[4dThis is the second test.[5dThis is the third test.[6dThis is the fourth test.[63d[K[6;25H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: myfile                                                                                                                                                                                             [63;1H(B[m[63;27H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 4 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[6;25H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# cat myfile
+This is a test.
+This is the second test.
+This is the third test.
+This is the fourth test.
+]0;root@idena-24: ~root@idena-24:~# awk '{print $1}' myfile
+This
+This
+This
+This
+]0;root@idena-24: ~root@idena-24:~# awk '{print $3}' myfile
+a
+the
+the
+the
+]0;root@idena-24: ~root@idena-24:~# awk '/foo/ { print toupper($0); }'
+This line contains bar.
+This line contains foo.
+THIS LINE CONTAINS FOO.THIS LINE CONTAINS FOO.
+^C
+]0;root@idena-24: ~root@idena-24:~# nanolist_students,[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ko list_students,[K
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                        list_students                                                                                                  [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[39;49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified[63d(B[m[K[1;214H[3dАсташко Иван ПИ 1 6[4dБузун Евгений КБ 1 9[5dКравченя Леонид ПМ 1 4[6dКошкин Владимир ИН 1 7[7d19[9dЛипин Федор ПИ 2 4[10dПенов Николай ПМ 1 5[11dЯшин Петр КБ 4 8[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: list_students                                                                                                                                                                                      [63;1H(B[m[63;34H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 9 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[11;17H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A19[?12l[?25h[?25l[8d[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[8;62r[62;1H
+[1;65r[7;3H[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[7;62r[62;1H
+[1;65r[6;23H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: list_students                                                                                                                                                                                      [63;1H(B[m[63;34H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 7 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[6;23H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# awk '{print $1,$2,$5}' list_students
+Асташко Иван 6
+Бузун Евгений 9
+Кравченя Леонид 4
+Кошкин Владимир 7
+Липин Федор 4
+Пенов Николай 5
+Яшин Петр 8
+]0;root@idena-24: ~root@idena-24:~# awk '/8/ {print $0}' list_students
+Яшин Петр КБ 4 8
+]0;root@idena-24: ~root@idena-24:~# awk '($5==4)' list_students
+Кравченя Леонид ПМ 1 4
+Липин Федор ПИ 2 4
+]0;root@idena-24: ~root@idena-24:~# awk '($3=="КБ")&&($4==1)' list_students
+Бузун Евгений КБ 1 9
+]0;root@idena-24: ~root@idena-24:~# awk '(length($2)>5) {print}' list_students
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Пенов Николай ПМ 1 5
+]0;root@idena-24: ~root@idena-24:~# awk '{print NR, $0}' list_students
+1 Асташко Иван ПИ 1 6
+2 Бузун Евгений КБ 1 9
+3 Кравченя Леонид ПМ 1 4
+4 Кошкин Владимир ИН 1 7
+5 Липин Федор ПИ 2 4
+6 Пенов Николай ПМ 1 5
+7 Яшин Петр КБ 4 8
+]0;root@idena-24: ~root@idena-24:~# awk '{print toupper ($2)}' list_students
+ИВАН
+ЕВГЕНИЙ
+ЛЕОНИД
+ВЛАДИМИР
+ФЕДОР
+НИКОЛАЙ
+ПЕТР
+]0;root@idena-24: ~root@idena-24:~# awk '{sum += $5} END {print("SUM=",sum)}' list_students
+SUM= 43
+]0;root@idena-24: ~root@idena-24:~# awk '($1 ~ /Кравченя/)' list_students
+Кравченя Леонид ПМ 1 4
+]0;root@idena-24: ~root@idena-24:~# awk '($1 ~ /Кравченя/)' list_students[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@Л[1P[1P[1@Л[1@е[1@о[1@н[1@о[1@в
+]0;root@idena-24: ~root@idena-24:~# awk '($1 ~ /[Лл]ипин/)' list_students
+Липин Федор ПИ 2 4
+]0;root@idena-24: ~root@idena-24:~# awk '($1 ~ /[Лл]ипин/)' list_students
+Липин Федор ПИ 2 4
+]0;root@idena-24: ~root@idena-24:~# тфтщ colours.csv[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano colours.csv
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                         colours.csv                                                                                                   [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[39;49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[3dapple,red,4[4dbanana,yellow,6[5dstrawberry,red,3[6dgrape,purple,10[7dapple,green,8[8dplum,purple,2[9dkiwi,brown,4[10dpotato,brown,9[11dpineapple,yellow,5[63d[K[11;19H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: colours.csv                                                                                                                                                                                        [63;1H(B[m[63;32H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 9 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[11;19H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# awk -F”,” '$3>6 {print $1, $2}' colours.csv > output.txt
+]0;root@idena-24: ~root@idena-24:~# ls
+[0m[01;34mDesktop[0m    [01;34mMusic[0m     [01;34mTemplates[0m    [01;34mexamples[0m                            log         packages1.catfile     packages2.txt            task2.2kharchenko13.txt  task3.3kharchenko13.txt  trfile.txt
+[01;34mDocuments[0m  [01;34mPictures[0m  [01;34mVideos[0m       [01;31midena-client-linux-0.19.0-rc.4.deb[0m  myfile      packages1.trfile.txt  ps.txt                   task3.1kharchenko13.txt  [37;44mthinclient_drives[0m        typedin.txt
+[01;34mDownloads[0m  [01;34mPublic[0m    colours.csv  list_students                       output.txt  packages1.txt         task2.1kharchenko13.txt  task3.2kharchenko13.txt  time_log
+]0;root@idena-24: ~root@idena-24:~# cat output.txt 
+]0;root@idena-24: ~root@idena-24:~# exit
+exit
+
+Script done on 2020-12-28 12:46:33+0000

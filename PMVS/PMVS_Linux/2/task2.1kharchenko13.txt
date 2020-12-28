@@ -1,0 +1,100 @@
+Script started on 2020-12-28 12:38:17+0000
+]0;root@idena-24: ~root@idena-24:~# nano packages1.txt
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                        packages1.txt                                                                                                  [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[39;49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[3damanda[4dgaleon[5dmetacity[6dmozilla[7dpostgresql[8dprocinfo[9drpmfind[10dsquid[63d[K[10;6H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: packages1.txt                                                                                                                                                                                      [63;1H(B[m[63;34H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 8 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[10;6H[?12l[?25h[?25l[63;82H(B[0;7m[ line 8/9 (88%), col 6/6 (100%), char 64/65 (98%) ](B[m[10;6H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# nano packages1.txt[1P.txt2.txt
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                        packages2.txt                                                                                                  [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[39;49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[3danaconda[4dopenssh[5dgnome-core[6dsamba[7dsendmail[8dxscreensaver[63d[K[8;13H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: packages2.txt                                                                                                                                                                                      [63;1H(B[m[63;34H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 6 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[8;13H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# cat packages1.rt[K[Ktxt
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+]0;root@idena-24: ~root@idena-24:~# cat packages1.txt[1P.txt2.txt
+anaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver
+]0;root@idena-24: ~root@idena-24:~# cat packages1.txt > packages1.catfile
+]0;root@idena-24: ~root@idena-24:~# cat packages1.catfile
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+]0;root@idena-24: ~root@idena-24:~# diff packages1.txt packages1.catfile
+]0;root@idena-24: ~root@idena-24:~# ls -l packages1*
+-rw-r--r-- 1 root root 65 Dec 28 12:39 packages1.catfile
+-rw-r--r-- 1 root root 65 Dec 28 12:38 packages1.txt
+]0;root@idena-24: ~root@idena-24:~# cat packages2.txt >> packages1.catfile
+]0;root@idena-24: ~root@idena-24:~# $ cat packages1.catfile[1P[1P
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+anaconda
+openssh
+gnome-core
+samba
+sendmail
+xscreensaver
+]0;root@idena-24: ~root@idena-24:~# clear
+[3J[H[2J]0;root@idena-24: ~root@idena-24:~# cat > typedin.txt
+]0;root@idena-24: ~root@idena-24:~# ls -l typedin.txt
+-rw-r--r-- 1 root root 0 Dec 28 12:40 typedin.txt
+]0;root@idena-24: ~root@idena-24:~# cat typedin.txt
+]0;root@idena-24: ~root@idena-24:~# tr ’aeiou’ ’AEIOU’ > trfile.txt
+]0;root@idena-24: ~root@idena-24:~# cat trfile.txt 
+]0;root@idena-24: ~root@idena-24:~# cat packages1.txt
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+]0;root@idena-24: ~root@idena-24:~# cat < packages1.txt
+amanda
+galeon
+metacity
+mozilla
+postgresql
+procinfo
+rpmfind
+squid
+]0;root@idena-24: ~root@idena-24:~# tr ’aeiou’ ’AEIOU’ < packages1.txt
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+]0;root@idena-24: ~root@idena-24:~# tr ’aeiou’ ’AEIOU’ < packages1.txt > packages1.trfile.txt
+]0;root@idena-24: ~root@idena-24:~# ls -l packages1.txt packages1.trfile.txt
+-rw-r--r-- 1 root root 65 Dec 28 12:41 packages1.trfile.txt
+-rw-r--r-- 1 root root 65 Dec 28 12:38 packages1.txt
+]0;root@idena-24: ~root@idena-24:~# cat packages1.trfile.txt
+AmAndA
+gAlEOn
+mEtAcIty
+mOzIllA
+pOstgrEsql
+prOcInfO
+rpmfInd
+sqUId
+]0;root@idena-24: ~root@idena-24:~# 3x[K[Kexit
+exit
+
+Script done on 2020-12-28 12:41:42+0000

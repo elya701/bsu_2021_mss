@@ -1,0 +1,45 @@
+Script started on 2020-12-28 12:47:36+0000
+]0;root@idena-24: ~root@idena-24:~# nano books
+[?1049h[22;0;0t[1;65r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[63;102H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                                            books                                                                                                      [1;214H(B[m[64d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[64;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65d(B[0;7m^X(B[m Exit[65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[65;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next[65;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[3d[49m(B[m[?12l[?25h[?25l[1;206H(B[0;7mModified(B[m[3dBook one.[4dThe second book.[5dThe third.[6dThis is book four.[7dFive.[8dThis is the sixth.[9dThis is book seven.[10dEighth and last.[63d[K[10;17H[?12l[?25h[?25l[64;18H[28X[64;52H  (B[0;7mM-D(B[m DOS Format           [86G          [103G    (B[0;7mM-A(B[m Append[43X[64;160H(B[0;7mM-B(B[m Backup File[K[65;2H(B[0;7mC(B[m Cancel[65;18H[27X[65;52H  (B[0;7mM-M(B[m Mac Format            [86G[21X[65;107H(B[0;7mM-P(B[m Prepend[42X[65;160H(B[0;7m^T(B[m To Files[K[63d(B[0;7mFile Name to Write: books                                                                                                                                                                                              [63;1H(B[m[63;26H[?12l[?25h[?25l[K[1;214H[1;206H(B[0;7m        (B[m[63;100H(B[0;7m[ Wrote 8 lines ](B[m[64;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text      (B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-▲(B[m Previous     (B[0;7m^B(B[m Back[64;188H(B[0;7m^◀(B[m Prev Word[65;2H(B[0;7mX(B[m Exit  [65;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next (B[0;7mM-▼(B[m Next         (B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word[63d[10;17H[?12l[?25h[?25l[63d[J[65;215H[?12l[?25h[65;1H[?1049l[23;0;0t[?1l>]0;root@idena-24: ~root@idena-24:~# sed '/book/ p' books
+Book one.
+The second book.
+The second book.
+The third.
+This is book four.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+This is book seven.
+Eighth and last.
+]0;root@idena-24: ~root@idena-24:~# sed -n '/book/ p' books
+The second book.
+This is book four.
+This is book seven.
+]0;root@idena-24: ~root@idena-24:~# sed -n '2,5 p' books
+The second book.
+The third.
+This is book four.
+Five.
+]0;root@idena-24: ~root@idena-24:~# sed -n -f records books
+sed: couldn't open file records: No such file or directory
+]0;root@idena-24: ~root@idena-24:~# sed -n '2,5 p' books[K[K[K[K[K[Kr[K records
+sed: can't read records: No such file or directory
+]0;root@idena-24: ~root@idena-24:~# sed -n '2,5 p' books
+The second book.
+The third.
+This is book four.
+Five.
+]0;root@idena-24: ~root@idena-24:~# sed -f appends books
+sed: couldn't open file appends: No such file or directory
+]0;root@idena-24: ~root@idena-24:~# sed -f insert books
+sed: couldn't open file insert: No such file or directory
+]0;root@idena-24: ~root@idena-24:~# sed -f insert books[1@appends[C[C[C[C[C[Cn '2,5 p'[C[C[C[C[C[Crecords[2Pbooks
+The second book.
+The third.
+This is book four.
+Five.
+]0;root@idena-24: ~root@idena-24:~# exit
+exit
+
+Script done on 2020-12-28 12:49:20+0000
