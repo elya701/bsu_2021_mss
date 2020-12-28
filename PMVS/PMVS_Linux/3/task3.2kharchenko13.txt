@@ -1,0 +1,104 @@
+Script started on 2020-12-28 12:23:17+0000
+]0;root@idena-24: ~root@idena-24:~# (while true; do echo -n B >> log; sleep 1; done)
+^Z
+[1]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+]0;root@idena-24: ~root@idena-24:~# (while true; do echo -n B >> log; sleep 1; done)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kjobs[2Pfgjobs[2Pfgjobsexit(while true; do echo -n B >> log; sleep 1; done) & BC
+[2] 4042
+BC: command not found
+]0;root@idena-24: ~root@idena-24:~# (while true; do echo -n B >> log; sleep 1; done) & BC[1P[1@C
+[3] 4099
+BC: command not found
+]0;root@idena-24: ~root@idena-24:~# (while true; do echo -n C >> log; sleep 1; done) & BC[K[K[K[K[K
+^C
+]0;root@idena-24: ~root@idena-24:~# jpbs[K[K[Kobs
+[1]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[2]   Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[3]-  Running                 ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+]0;root@idena-24: ~root@idena-24:~# kill [K[K[K[K[Kps
+  PID TTY          TIME CMD
+ 3990 pts/1    00:00:00 bash
+ 4013 pts/1    00:00:00 bash
+ 4041 pts/1    00:00:00 sleep
+ 4042 pts/1    00:00:00 bash
+ 4099 pts/1    00:00:00 bash
+ 4310 pts/1    00:00:00 sleep
+ 4311 pts/1    00:00:00 sleep
+ 4312 pts/1    00:00:00 ps
+]0;root@idena-24: ~root@idena-24:~#  renice +20 -u peter[1P[1P[1@6[C[C[C[C[C[C[C[C[C[K[K[K[K[K4041
+renice: failed to get priority for 4041 (user ID): No such process
+]0;root@idena-24: ~root@idena-24:~# psjobs[2Pps
+  PID TTY          TIME CMD
+ 3990 pts/1    00:00:00 bash
+ 4013 pts/1    00:00:00 bash
+ 4041 pts/1    00:00:00 sleep
+ 4042 pts/1    00:00:00 bash
+ 4099 pts/1    00:00:00 bash
+ 4391 pts/1    00:00:00 sleep
+ 4392 pts/1    00:00:00 sleep
+ 4393 pts/1    00:00:00 ps
+]0;root@idena-24: ~root@idena-24:~# psjobs(while true; do echo -n C >> log; sleep 1; done)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjobs[K[2Ppsjobs(while true; do echo -n C >> log; sleep 1; done) & BC[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjobs[K[2Pps[Krenice +6 -u 3990
+renice: failed to get priority for 3990 (user ID): No such process
+]0;root@idena-24: ~root@idena-24:~# nice
+0
+]0;root@idena-24: ~root@idena-24:~# nice -9
+nice: a command must be given with an adjustment
+Try 'nice --help' for more information.
+]0;root@idena-24: ~root@idena-24:~# nice -9[K-help
+Usage: nice [OPTION] [COMMAND [ARG]...]
+Run COMMAND with an adjusted niceness, which affects process scheduling.
+With no COMMAND, print the current niceness.  Niceness values range from
+-20 (most favorable to the process) to 19 (least favorable to the process).
+
+Mandatory arguments to long options are mandatory for short options too.
+  -n, --adjustment=N   add integer N to the niceness (default 10)
+      --help     display this help and exit
+      --version  output version information and exit
+
+NOTE: your shell may have its own version of nice, which usually supersedes
+the version described here.  Please refer to your shell's documentation
+for details about the options it supports.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Report nice translation bugs to <http://translationproject.org/team/>
+Full documentation at: <http://www.gnu.org/software/coreutils/nice>
+or available locally via: info '(coreutils) nice invocation'
+]0;root@idena-24: ~root@idena-24:~# kill 51[K[K%1
+
+[1]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+]0;root@idena-24: ~root@idena-24:~# kill %1[K0
+bash: kill: %0: no such job
+[1]+  Terminated              ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+]0;root@idena-24: ~root@idena-24:~# kill %0[K1
+bash: kill: %1: no such job
+]0;root@idena-24: ~root@idena-24:~# kill %1[K2
+]0;root@idena-24: ~root@idena-24:~# jobs
+[2]-  Terminated              ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]+  Running                 ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+]0;root@idena-24: ~root@idena-24:~# jobskill %2[K3
+]0;root@idena-24: ~root@idena-24:~# kill %3[3Pjobs
+[3]+  Terminated              ( while true; do
+    echo -n C >> log; sleep 1;
+done )
+]0;root@idena-24: ~root@idena-24:~# jobskill %3
+bash: kill: %3: no such job
+]0;root@idena-24: ~root@idena-24:~# kill %3[3Pjobs
+]0;root@idena-24: ~root@idena-24:~# exit
+exit
+
+Script done on 2020-12-28 12:30:01+0000

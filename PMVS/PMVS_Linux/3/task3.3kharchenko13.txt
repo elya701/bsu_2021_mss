@@ -1,0 +1,119 @@
+Script started on 2020-12-28 12:30:07+0000
+]0;root@idena-24: ~root@idena-24:~# su[K[Kclear
+[3J[H[2J]0;root@idena-24: ~root@idena-24:~# sudo [K[K[K[K[Kfind -empty >> home/[K[K[K[K[K/home/validation/3[K[K[K[K[K[K[K[K[K[K[K[Kvalidation/3/log
+bash: /home/validation/3/log: No such file or directory
+]0;root@idena-24: ~root@idena-24:~# cd /
+]0;root@idena-24: /root@idena-24:/# ls
+[0m[01;34mbin[0m  [01;34mboot[0m  core  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36minitrd.img[0m  [01;36minitrd.img.old[0m  [01;34mlib[0m  [01;34mlib64[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;34msbin[0m  [01;34mshutdown-515nd20_[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m  [01;36mvmlinuz[0m  [01;36mvmlinuz.old[0m
+]0;root@idena-24: /root@idena-24:/# cd root
+]0;root@idena-24: ~root@idena-24:~# ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  [01;34mTemplates[0m  [01;31midena-client-linux-0.19.0-rc.4.deb[0m  task3.1kharchenko13.txt  task3.3kharchenko13.txt  time_log
+[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34mVideos[0m     log                                 task3.2kharchenko13.txt  [37;44mthinclient_drives[0m
+]0;root@idena-24: ~root@idena-24:~# lscd rootls[Kcd /find -empty >> /home/validation/3/log[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktime_log
+]0;root@idena-24: ~root@idena-24:~# cat time_log 
+./thinclient_drives
+./Pictures
+./Documents
+./task3.3kharchenko13.txt
+./.cache/mozilla/firefox/8zs0c2b8.default
+./.cache/openbox/sessions
+./.thumbnails/normal
+./.thumbnails/large
+./.mozilla/systemextensionsdev
+./.mozilla/firefox/Crash Reports/events
+./.mozilla/firefox/rj1q5im7.default-release/storage/temporary
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/default/moz-extension+++97773d8d-8334-4678-8274-1f985052dfde^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+./.mozilla/firefox/rj1q5im7.default-release/datareporting/glean/events
+./.mozilla/firefox/rj1q5im7.default-release/crashes/events
+./.mozilla/firefox/rj1q5im7.default-release/security_state
+./.mozilla/firefox/rj1q5im7.default-release/extensions
+./.mozilla/firefox/rj1q5im7.default-release/.parentlock
+./.mozilla/firefox/rj1q5im7.default-release/bookmarkbackups
+./.mozilla/firefox/rj1q5im7.default-release/minidumps
+./.mozilla/firefox/Pending Pings
+./.mozilla/extensions
+./.config/xfce4/xfconf/xfce-perchannel-xml
+./.config/lxpanel/Lubuntu/panels
+./.config/goa-1.0
+./Templates
+./time_log
+./.local/share/applications
+./Public
+./Desktop
+./.ssh/authorized_keys
+./Music
+./.gnupg/private-keys-v1.d
+./Downloads
+./Videos
+]0;root@idena-24: ~root@idena-24:~# cat time_log [K[K[K[K[K[K[K[K[Klog
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCBCBCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCCCCCCCC]0;root@idena-24: ~root@idena-24:~# cat logtime_log find -empty >> time_log[K[K[K[K[K[K[K[Klog
+]0;root@idena-24: ~root@idena-24:~# find -empty >> log[11Pcat[C[C[C[C[11@find -empty >>[C[C[C[C[11Pcat[C[C[C[C[11@find -empty >>[C[C[C[C[Kfind -empty >> log[11Pcat[C[C[C[C
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCBCBCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCCCCCCCC./thinclient_drives
+./Pictures
+./Documents
+./.cache/mozilla/firefox/8zs0c2b8.default
+./.cache/openbox/sessions
+./.thumbnails/normal
+./.thumbnails/large
+./.mozilla/systemextensionsdev
+./.mozilla/firefox/Crash Reports/events
+./.mozilla/firefox/rj1q5im7.default-release/storage/temporary
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+./.mozilla/firefox/rj1q5im7.default-release/storage/default/moz-extension+++97773d8d-8334-4678-8274-1f985052dfde^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+./.mozilla/firefox/rj1q5im7.default-release/datareporting/glean/events
+./.mozilla/firefox/rj1q5im7.default-release/crashes/events
+./.mozilla/firefox/rj1q5im7.default-release/security_state
+./.mozilla/firefox/rj1q5im7.default-release/extensions
+./.mozilla/firefox/rj1q5im7.default-release/.parentlock
+./.mozilla/firefox/rj1q5im7.default-release/bookmarkbackups
+./.mozilla/firefox/rj1q5im7.default-release/minidumps
+./.mozilla/firefox/Pending Pings
+./.mozilla/extensions
+./.config/xfce4/xfconf/xfce-perchannel-xml
+./.config/lxpanel/Lubuntu/panels
+./.config/goa-1.0
+./Templates
+./.local/share/applications
+./Public
+./Desktop
+./.ssh/authorized_keys
+./Music
+./.gnupg/private-keys-v1.d
+./Downloads
+./Videos
+]0;root@idena-24: ~root@idena-24:~# SLE[K[K[Ksleep2500[K[K[K[K 2500 &
+[1] 4741
+]0;root@idena-24: ~root@idena-24:~# bg
+bash: bg: job 1 already in background
+]0;root@idena-24: ~root@idena-24:~# jobs
+[1]+  Running                 sleep 2500 &
+]0;root@idena-24: ~root@idena-24:~# kill %1
+]0;root@idena-24: ~root@idena-24:~# jobs
+[1]+  Terminated              sleep 2500
+]0;root@idena-24: ~root@idena-24:~# jobskill %1[3Pjobs[2Pbgsleep 2500 &[K[K[K[K[K00 $[K&
+[1] 4743
+]0;root@idena-24: ~root@idena-24:~# sleep 200 &[7Pjobskill %1[3Pjobs[2Pbgjobs
+[1]+  Running                 sleep 200 &
+]0;root@idena-24: ~root@idena-24:~# jobssleep 200 &[7Pjobskill %1[3Pjobs[2Pbgsleep 2500 &
+[2] 4744
+]0;root@idena-24: ~root@idena-24:~# sleep 2500 &[8Pjobssleep 200 &[7Pjobskill %1[K2
+]0;root@idena-24: ~root@idena-24:~# kill %2sleep 2500 &[8Pjobs
+[1]-  Running                 sleep 200 &
+[2]+  Terminated              sleep 2500
+]0;root@idena-24: ~root@idena-24:~# exec ls -R /etc.
+ls: cannot access '/etc.': No such file or directory
+
+Script done on 2020-12-28 12:35:29+0000
